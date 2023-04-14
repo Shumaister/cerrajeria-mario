@@ -1,0 +1,30 @@
+.sectionOne {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #252850;
+    overflow: visible;
+    color: white;
+}
+
+.sectionOne>* {
+    flex: none;
+}
+
+.saludo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    text-align: center;
+    flex-basis: 20%;
+}
+
+.carousel {
+    width: 100%;
+    margin-bottom: 20px;
+    flex-basis: 80%;
+}
